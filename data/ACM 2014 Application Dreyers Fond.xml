@@ -1,0 +1,1821 @@
+<dcrgraph title="ACM 2014 Application Dreyers Fond" dataTypesStatus="hide" filterLevel="-1" insightFilter="false" zoomLevel="-9" formGroupStyle="Normal" formLayoutStyle="Horizontal" formShowPendingCount="false" graphBG="#EBEBEB" graphType="0" exercise="false">
+    <meta>
+        <graph id="89" hash="FBE9A196581A0B7FA0378535AF08E2DA" guid="59A932F8-1011-4232-BBC5-9B39EFB1FC18" OwnerName="Morten Marquard" OwnerId="4" categoryId="5302" categoryTitle="Public DCR" Keywords=""/>
+        <revision id="3061330" type="minor" date="2023-01-17T15:49:25.680"/>
+        <organization id="1" name="Community"/>
+    </meta>
+    <specification>
+        <resources>
+            <events>
+                <event id="Application">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="75" yLoc="75"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role/>
+                        </roles>
+                        <readRoles>
+                            <readRole/>
+                        </readRoles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType>Nesting</eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>1</level>
+                        <sequence>1</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                    <event id="Abort payment">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="1469" yLoc="989"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Caseworker</role>
+                            </roles>
+                            <readRoles>
+                                <readRole/>
+                            </readRoles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType>DL_DCREventTaskPersonal</eventType>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>17</level>
+                            <sequence>2</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Inititial Assesment">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="100" yLoc="650"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Caseworker</role>
+                            </roles>
+                            <readRoles>
+                                <readRole/>
+                            </readRoles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType>DL_WFCaseTypePhase</eventType>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>10</level>
+                            <sequence>3</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                        <event id="Approve">
+                            <precondition message=""/>
+                            <custom>
+                                <visualization>
+                                    <location xLoc="150" yLoc="700"/>
+                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                </visualization>
+                                <roles>
+                                    <role>Caseworker</role>
+                                </roles>
+                                <readRoles>
+                                    <readRole/>
+                                </readRoles>
+                                <groups>
+                                    <group/>
+                                </groups>
+                                <phases>
+                                    <phase/>
+                                </phases>
+                                <eventType>DL_DCREventTaskPersonal</eventType>
+                                <eventScope>private</eventScope>
+                                <eventTypeData/>
+                                <eventDescription/>
+                                <purpose/>
+                                <guide/>
+                                <insight use="false"/>
+                                <level>12</level>
+                                <sequence>4</sequence>
+                                <costs>0</costs>
+                                <eventData/>
+                                <interfaces/>
+                            </custom>
+                        </event>
+                        <event id="Reject">
+                            <precondition message=""/>
+                            <custom>
+                                <visualization>
+                                    <location xLoc="125" yLoc="856"/>
+                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                </visualization>
+                                <roles>
+                                    <role>Caseworker</role>
+                                </roles>
+                                <readRoles>
+                                    <readRole/>
+                                </readRoles>
+                                <groups>
+                                    <group/>
+                                </groups>
+                                <phases>
+                                    <phase/>
+                                </phases>
+                                <eventType>DL_DCREventTaskPersonal</eventType>
+                                <eventScope>private</eventScope>
+                                <eventTypeData/>
+                                <eventDescription/>
+                                <purpose/>
+                                <guide/>
+                                <insight use="false"/>
+                                <level>14</level>
+                                <sequence>5</sequence>
+                                <costs>0</costs>
+                                <eventData/>
+                                <interfaces/>
+                            </custom>
+                        </event>
+                    </event>
+                    <event id="Receiving">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="118" yLoc="134"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role/>
+                            </roles>
+                            <readRoles>
+                                <readRole/>
+                            </readRoles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType>DL_WFCaseTypePhase</eventType>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>2</level>
+                            <sequence>6</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                        <event id="Fill out Application">
+                            <precondition message=""/>
+                            <custom>
+                                <visualization>
+                                    <location xLoc="143" yLoc="184"/>
+                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                </visualization>
+                                <roles>
+                                    <role>Applicant</role>
+                                </roles>
+                                <readRoles>
+                                    <readRole/>
+                                </readRoles>
+                                <groups>
+                                    <group/>
+                                </groups>
+                                <phases>
+                                    <phase/>
+                                </phases>
+                                <eventType>DL_DCREventAutomatic</eventType>
+                                <eventScope>private</eventScope>
+                                <eventTypeData/>
+                                <eventDescription/>
+                                <purpose/>
+                                <guide/>
+                                <insight use="false"/>
+                                <level>3</level>
+                                <sequence>7</sequence>
+                                <costs>0</costs>
+                                <eventData/>
+                                <interfaces/>
+                            </custom>
+                        </event>
+                    </event>
+                    <event id="Board Review">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="350" yLoc="450"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role/>
+                            </roles>
+                            <readRoles>
+                                <readRole/>
+                            </readRoles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType>DL_WFCaseTypePhase</eventType>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>10</level>
+                            <sequence>8</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                        <event id="Lawyer Review">
+                            <precondition message=""/>
+                            <custom>
+                                <visualization>
+                                    <location xLoc="375" yLoc="500"/>
+                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                </visualization>
+                                <roles>
+                                    <role>Lawyer</role>
+                                </roles>
+                                <readRoles>
+                                    <readRole/>
+                                </readRoles>
+                                <groups>
+                                    <group/>
+                                </groups>
+                                <phases>
+                                    <phase/>
+                                </phases>
+                                <eventType>DF_Stemme</eventType>
+                                <eventScope>private</eventScope>
+                                <eventTypeData/>
+                                <eventDescription/>
+                                <purpose/>
+                                <guide/>
+                                <insight use="false"/>
+                                <level>12</level>
+                                <sequence>9</sequence>
+                                <costs>0</costs>
+                                <eventData/>
+                                <interfaces/>
+                            </custom>
+                        </event>
+                        <event id="Architect Review">
+                            <precondition message=""/>
+                            <custom>
+                                <visualization>
+                                    <location xLoc="375" yLoc="769"/>
+                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                </visualization>
+                                <roles>
+                                    <role>Architect</role>
+                                </roles>
+                                <readRoles>
+                                    <readRole/>
+                                </readRoles>
+                                <groups>
+                                    <group/>
+                                </groups>
+                                <phases>
+                                    <phase/>
+                                </phases>
+                                <eventType>DF_Stemme</eventType>
+                                <eventScope>private</eventScope>
+                                <eventTypeData/>
+                                <eventDescription/>
+                                <purpose/>
+                                <guide/>
+                                <insight use="false"/>
+                                <level>12</level>
+                                <sequence>10</sequence>
+                                <costs>0</costs>
+                                <eventData/>
+                                <interfaces/>
+                            </custom>
+                        </event>
+                        <event id="Review">
+                            <precondition message=""/>
+                            <custom>
+                                <visualization>
+                                    <location xLoc="622" yLoc="502"/>
+                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                </visualization>
+                                <roles>
+                                    <role>Reviewer 3</role>
+                                </roles>
+                                <readRoles>
+                                    <readRole/>
+                                </readRoles>
+                                <groups>
+                                    <group/>
+                                </groups>
+                                <phases>
+                                    <phase/>
+                                </phases>
+                                <eventType>DF_Stemme</eventType>
+                                <eventScope>private</eventScope>
+                                <eventTypeData/>
+                                <eventDescription/>
+                                <purpose/>
+                                <guide/>
+                                <insight use="false"/>
+                                <level>12</level>
+                                <sequence>11</sequence>
+                                <costs>0</costs>
+                                <eventData/>
+                                <interfaces/>
+                            </custom>
+                        </event>
+                        <event id="Review_1">
+                            <precondition message=""/>
+                            <custom>
+                                <visualization>
+                                    <location xLoc="622" yLoc="777"/>
+                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                </visualization>
+                                <roles>
+                                    <role>Reviewer 4</role>
+                                </roles>
+                                <readRoles>
+                                    <readRole/>
+                                </readRoles>
+                                <groups>
+                                    <group/>
+                                </groups>
+                                <phases>
+                                    <phase/>
+                                </phases>
+                                <eventType>DF_Stemme</eventType>
+                                <eventScope>private</eventScope>
+                                <eventTypeData/>
+                                <eventDescription/>
+                                <purpose/>
+                                <guide/>
+                                <insight use="false"/>
+                                <level>12</level>
+                                <sequence>12</sequence>
+                                <costs>0</costs>
+                                <eventData/>
+                                <interfaces/>
+                            </custom>
+                        </event>
+                    </event>
+                    <event id="Board meeting">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="875" yLoc="600"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role/>
+                            </roles>
+                            <readRoles>
+                                <readRole/>
+                            </readRoles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType>DL_WFCaseTypePhase</eventType>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>10</level>
+                            <sequence>13</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                        <event id="Register Decision">
+                            <precondition message=""/>
+                            <custom>
+                                <visualization>
+                                    <location xLoc="906" yLoc="869"/>
+                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                </visualization>
+                                <roles>
+                                    <role>Caseworker</role>
+                                </roles>
+                                <readRoles>
+                                    <readRole/>
+                                </readRoles>
+                                <groups>
+                                    <group/>
+                                </groups>
+                                <phases>
+                                    <phase/>
+                                </phases>
+                                <eventType>DF_Stemme</eventType>
+                                <eventScope>private</eventScope>
+                                <eventTypeData/>
+                                <eventDescription/>
+                                <purpose/>
+                                <guide/>
+                                <insight use="false"/>
+                                <level>12</level>
+                                <sequence>14</sequence>
+                                <costs>0</costs>
+                                <eventData/>
+                                <interfaces/>
+                            </custom>
+                        </event>
+                        <event id="Ready">
+                            <precondition message=""/>
+                            <custom>
+                                <visualization>
+                                    <location xLoc="1200" yLoc="650"/>
+                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                </visualization>
+                                <roles>
+                                    <role/>
+                                </roles>
+                                <readRoles>
+                                    <readRole/>
+                                </readRoles>
+                                <groups>
+                                    <group/>
+                                </groups>
+                                <phases>
+                                    <phase/>
+                                </phases>
+                                <eventType>DL_WFCaseTypeNesting</eventType>
+                                <eventScope>private</eventScope>
+                                <eventTypeData/>
+                                <eventDescription/>
+                                <purpose/>
+                                <guide/>
+                                <insight use="false"/>
+                                <level>14</level>
+                                <sequence>15</sequence>
+                                <costs>0</costs>
+                                <eventData/>
+                                <interfaces/>
+                            </custom>
+                            <event id="Reject_1">
+                                <precondition message=""/>
+                                <custom>
+                                    <visualization>
+                                        <location xLoc="1225" yLoc="925"/>
+                                        <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                    </visualization>
+                                    <roles>
+                                        <role>Caseworker</role>
+                                    </roles>
+                                    <readRoles>
+                                        <readRole/>
+                                    </readRoles>
+                                    <groups>
+                                        <group/>
+                                    </groups>
+                                    <phases>
+                                        <phase/>
+                                    </phases>
+                                    <eventType>DL_DCREventTaskPersonal</eventType>
+                                    <eventScope>private</eventScope>
+                                    <eventTypeData/>
+                                    <eventDescription/>
+                                    <purpose/>
+                                    <guide/>
+                                    <insight use="false"/>
+                                    <level>14</level>
+                                    <sequence>16</sequence>
+                                    <costs>0</costs>
+                                    <eventData/>
+                                    <interfaces/>
+                                </custom>
+                            </event>
+                            <event id="Approve_1">
+                                <precondition message=""/>
+                                <custom>
+                                    <visualization>
+                                        <location xLoc="1233" yLoc="700"/>
+                                        <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                    </visualization>
+                                    <roles>
+                                        <role>Caseworker</role>
+                                    </roles>
+                                    <readRoles>
+                                        <readRole/>
+                                    </readRoles>
+                                    <groups>
+                                        <group/>
+                                    </groups>
+                                    <phases>
+                                        <phase/>
+                                    </phases>
+                                    <eventType>DL_DCREventTaskPersonal</eventType>
+                                    <eventScope>private</eventScope>
+                                    <eventTypeData/>
+                                    <eventDescription/>
+                                    <purpose/>
+                                    <guide/>
+                                    <insight use="false"/>
+                                    <level>14</level>
+                                    <sequence>17</sequence>
+                                    <costs>0</costs>
+                                    <eventData/>
+                                    <interfaces/>
+                                </custom>
+                            </event>
+                        </event>
+                        <event id="Meeting in progress">
+                            <precondition message=""/>
+                            <custom>
+                                <visualization>
+                                    <location xLoc="1025" yLoc="700"/>
+                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                </visualization>
+                                <roles>
+                                    <role>DBTrigger</role>
+                                </roles>
+                                <readRoles>
+                                    <readRole/>
+                                </readRoles>
+                                <groups>
+                                    <group/>
+                                </groups>
+                                <phases>
+                                    <phase/>
+                                </phases>
+                                <eventType>DL_DCREventDBTrigger</eventType>
+                                <eventScope>private</eventScope>
+                                <eventTypeData/>
+                                <eventDescription/>
+                                <purpose/>
+                                <guide/>
+                                <insight use="false"/>
+                                <level>16</level>
+                                <sequence>18</sequence>
+                                <costs>0</costs>
+                                <eventData/>
+                                <interfaces/>
+                            </custom>
+                        </event>
+                        <event id="Inform applicant proceeed">
+                            <precondition message=""/>
+                            <custom>
+                                <visualization>
+                                    <location xLoc="900" yLoc="710"/>
+                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                </visualization>
+                                <roles>
+                                    <role>Caseworker</role>
+                                </roles>
+                                <readRoles>
+                                    <readRole/>
+                                </readRoles>
+                                <groups>
+                                    <group/>
+                                </groups>
+                                <phases>
+                                    <phase/>
+                                </phases>
+                                <eventType>DL_DCREventTaskPersonal</eventType>
+                                <eventScope>private</eventScope>
+                                <eventTypeData/>
+                                <eventDescription/>
+                                <purpose/>
+                                <guide/>
+                                <insight use="false"/>
+                                <level>12</level>
+                                <sequence>19</sequence>
+                                <costs>0</costs>
+                                <eventData/>
+                                <interfaces/>
+                            </custom>
+                        </event>
+                        <event id="Pre approve">
+                            <precondition message=""/>
+                            <custom>
+                                <visualization>
+                                    <location xLoc="1050" yLoc="925"/>
+                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                </visualization>
+                                <roles>
+                                    <role>Caseworker</role>
+                                </roles>
+                                <readRoles>
+                                    <readRole/>
+                                </readRoles>
+                                <groups>
+                                    <group/>
+                                </groups>
+                                <phases>
+                                    <phase/>
+                                </phases>
+                                <eventType>DL_DCREventTaskPersonal</eventType>
+                                <eventScope>private</eventScope>
+                                <eventTypeData/>
+                                <eventDescription/>
+                                <purpose/>
+                                <guide/>
+                                <insight use="false"/>
+                                <level>14</level>
+                                <sequence>20</sequence>
+                                <costs>0</costs>
+                                <eventData/>
+                                <interfaces/>
+                            </custom>
+                        </event>
+                        <event id="Execute pre decision">
+                            <precondition message=""/>
+                            <custom>
+                                <visualization>
+                                    <location xLoc="1000" yLoc="1100"/>
+                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                </visualization>
+                                <roles>
+                                    <role>Automatic</role>
+                                </roles>
+                                <readRoles>
+                                    <readRole/>
+                                </readRoles>
+                                <groups>
+                                    <group/>
+                                </groups>
+                                <phases>
+                                    <phase/>
+                                </phases>
+                                <eventType>DL_DCREventAutomatic</eventType>
+                                <eventScope>private</eventScope>
+                                <eventTypeData/>
+                                <eventDescription/>
+                                <purpose/>
+                                <guide/>
+                                <insight use="false"/>
+                                <level>20</level>
+                                <sequence>21</sequence>
+                                <costs>0</costs>
+                                <eventData/>
+                                <interfaces/>
+                            </custom>
+                        </event>
+                    </event>
+                    <event id="Payout">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="925" yLoc="125"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Caseworker</role>
+                            </roles>
+                            <readRoles>
+                                <readRole/>
+                            </readRoles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType>DL_WFCaseTypePhase</eventType>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>2</level>
+                            <sequence>22</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                        <event id="First payment">
+                            <precondition message=""/>
+                            <custom>
+                                <visualization>
+                                    <location xLoc="950" yLoc="175"/>
+                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                </visualization>
+                                <roles>
+                                    <role>Automatic</role>
+                                </roles>
+                                <readRoles>
+                                    <readRole/>
+                                </readRoles>
+                                <groups>
+                                    <group/>
+                                </groups>
+                                <phases>
+                                    <phase/>
+                                </phases>
+                                <eventType>DF_Udbetaling</eventType>
+                                <eventScope>private</eventScope>
+                                <eventTypeData/>
+                                <eventDescription/>
+                                <purpose/>
+                                <guide/>
+                                <insight use="false"/>
+                                <level>3</level>
+                                <sequence>23</sequence>
+                                <costs>0</costs>
+                                <eventData/>
+                                <interfaces/>
+                            </custom>
+                        </event>
+                        <event id="Undo payment">
+                            <precondition message=""/>
+                            <custom>
+                                <visualization>
+                                    <location xLoc="1265" yLoc="200"/>
+                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                </visualization>
+                                <roles>
+                                    <role>Caseworker</role>
+                                </roles>
+                                <readRoles>
+                                    <readRole/>
+                                </readRoles>
+                                <groups>
+                                    <group/>
+                                </groups>
+                                <phases>
+                                    <phase/>
+                                </phases>
+                                <eventType>DL_DCREventDBTrigger</eventType>
+                                <eventScope>private</eventScope>
+                                <eventTypeData/>
+                                <eventDescription/>
+                                <purpose/>
+                                <guide/>
+                                <insight use="false"/>
+                                <level>6</level>
+                                <sequence>24</sequence>
+                                <costs>0</costs>
+                                <eventData/>
+                                <interfaces/>
+                            </custom>
+                        </event>
+                    </event>
+                    <event id="End Report">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="1900" yLoc="300"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role/>
+                            </roles>
+                            <readRoles>
+                                <readRole/>
+                            </readRoles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType>DL_WFCaseTypePhase</eventType>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>10</level>
+                            <sequence>25</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                        <event id="Receive End Report">
+                            <precondition message=""/>
+                            <custom>
+                                <visualization>
+                                    <location xLoc="1925" yLoc="350"/>
+                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                </visualization>
+                                <roles>
+                                    <role>Caseworker</role>
+                                </roles>
+                                <readRoles>
+                                    <readRole/>
+                                </readRoles>
+                                <groups>
+                                    <group/>
+                                </groups>
+                                <phases>
+                                    <phase/>
+                                </phases>
+                                <eventType>DL_DCREventTaskPersonal</eventType>
+                                <eventScope>private</eventScope>
+                                <eventTypeData/>
+                                <eventDescription>&lt;p&gt;jhfgkyjfghj&amp;nbsp;&lt;/p&gt;</eventDescription>
+                                <purpose/>
+                                <guide/>
+                                <insight use="false"/>
+                                <level>14</level>
+                                <sequence>26</sequence>
+                                <costs>0</costs>
+                                <eventData/>
+                                <interfaces/>
+                            </custom>
+                        </event>
+                    </event>
+                    <event id="Complete">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="2174" yLoc="304"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role/>
+                            </roles>
+                            <readRoles>
+                                <readRole/>
+                            </readRoles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType>DL_WFCaseTypePhase</eventType>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>10</level>
+                            <sequence>27</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Preparation">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="1725" yLoc="975"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role/>
+                            </roles>
+                            <readRoles>
+                                <readRole/>
+                            </readRoles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType>DL_WFCaseTypePhase</eventType>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>10</level>
+                            <sequence>28</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                        <event id="Inform Applicant">
+                            <precondition message=""/>
+                            <custom>
+                                <visualization>
+                                    <location xLoc="1750" yLoc="1025"/>
+                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                </visualization>
+                                <roles>
+                                    <role>Caseworker</role>
+                                </roles>
+                                <readRoles>
+                                    <readRole/>
+                                </readRoles>
+                                <groups>
+                                    <group/>
+                                </groups>
+                                <phases>
+                                    <phase/>
+                                </phases>
+                                <eventType>DL_DCREventTaskPersonal</eventType>
+                                <eventScope>private</eventScope>
+                                <eventTypeData/>
+                                <eventDescription/>
+                                <purpose/>
+                                <guide/>
+                                <insight use="false"/>
+                                <level>12</level>
+                                <sequence>29</sequence>
+                                <costs>0</costs>
+                                <eventData/>
+                                <interfaces/>
+                            </custom>
+                        </event>
+                        <event id="Ensure info received from applicant">
+                            <precondition message=""/>
+                            <custom>
+                                <visualization>
+                                    <location xLoc="1883" yLoc="1138"/>
+                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                                </visualization>
+                                <roles>
+                                    <role>Caseworker</role>
+                                </roles>
+                                <readRoles>
+                                    <readRole/>
+                                </readRoles>
+                                <groups>
+                                    <group/>
+                                </groups>
+                                <phases>
+                                    <phase/>
+                                </phases>
+                                <eventType>DL_DCREventTaskPersonal</eventType>
+                                <eventScope>private</eventScope>
+                                <eventTypeData/>
+                                <eventDescription/>
+                                <purpose/>
+                                <guide/>
+                                <insight use="false"/>
+                                <level>12</level>
+                                <sequence>30</sequence>
+                                <costs>0</costs>
+                                <eventData/>
+                                <interfaces/>
+                            </custom>
+                        </event>
+                    </event>
+                    <event id="Account number changed">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="1725" yLoc="725"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>DBTrigger</role>
+                            </roles>
+                            <readRoles>
+                                <readRole/>
+                            </readRoles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType>DL_DCREventDBTrigger</eventType>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>14</level>
+                            <sequence>31</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Approve acct num change">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="1575" yLoc="500"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Accountant</role>
+                            </roles>
+                            <readRoles>
+                                <readRole/>
+                            </readRoles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType>DL_DCREventTaskPersonal</eventType>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>14</level>
+                            <sequence>32</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Round approved">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="1020" yLoc="386"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>DBTrigger</role>
+                            </roles>
+                            <readRoles>
+                                <readRole/>
+                            </readRoles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType>DL_DCREventDBTrigger</eventType>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>16</level>
+                            <sequence>33</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Round Ends">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="849" yLoc="387"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>DBTrigger</role>
+                            </roles>
+                            <readRoles>
+                                <readRole/>
+                            </readRoles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType>DL_DCREventDBTrigger</eventType>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>16</level>
+                            <sequence>34</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Change phase to review">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="379" yLoc="1065"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Automatic</role>
+                            </roles>
+                            <readRoles>
+                                <readRole/>
+                            </readRoles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType>DL_DCREventAutomatic</eventType>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>40</level>
+                            <sequence>35</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Change phase to Board meeting">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="619" yLoc="1065"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Automatic</role>
+                            </roles>
+                            <readRoles>
+                                <readRole/>
+                            </readRoles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType>DL_DCREventAutomatic</eventType>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>40</level>
+                            <sequence>36</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Change phase to Complete">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="2081" yLoc="610"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Automatic</role>
+                            </roles>
+                            <readRoles>
+                                <readRole/>
+                            </readRoles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType>DL_DCREventAutomatic</eventType>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>40</level>
+                            <sequence>37</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Change Phase to End Report">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="1942" yLoc="610"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Automatic</role>
+                            </roles>
+                            <readRoles>
+                                <readRole/>
+                            </readRoles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType>DL_DCREventAutomatic</eventType>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>40</level>
+                            <sequence>38</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Change Phase to Payout">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="1943" yLoc="760"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Automatic</role>
+                            </roles>
+                            <readRoles>
+                                <readRole/>
+                            </readRoles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType>DL_DCREventAutomatic</eventType>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>40</level>
+                            <sequence>39</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Change phase to Forberedelse">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="1475" yLoc="1175"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Automatic</role>
+                            </roles>
+                            <readRoles>
+                                <readRole/>
+                            </readRoles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType>DL_DCREventAutomatic</eventType>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>40</level>
+                            <sequence>40</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Payment completed">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="1759" yLoc="170"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>DBTrigger</role>
+                            </roles>
+                            <readRoles>
+                                <readRole/>
+                            </readRoles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType>DL_DCREventDBTrigger</eventType>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>12</level>
+                            <sequence>41</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Set to Pre approved">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="1409" yLoc="707"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Automatic</role>
+                            </roles>
+                            <readRoles>
+                                <readRole/>
+                            </readRoles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType>DL_DCREventAutomatic</eventType>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>20</level>
+                            <sequence>42</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                </event>
+                <event id="Abort">
+                    <precondition message=""/>
+                    <custom>
+                        <visualization>
+                            <location xLoc="600" yLoc="1450"/>
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                        </visualization>
+                        <roles>
+                            <role/>
+                        </roles>
+                        <readRoles>
+                            <readRole/>
+                        </readRoles>
+                        <groups>
+                            <group/>
+                        </groups>
+                        <phases>
+                            <phase/>
+                        </phases>
+                        <eventType>DL_WFCaseTypePhase</eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData/>
+                        <eventDescription/>
+                        <purpose/>
+                        <guide/>
+                        <insight use="false"/>
+                        <level>24</level>
+                        <sequence>43</sequence>
+                        <costs>0</costs>
+                        <eventData/>
+                        <interfaces/>
+                    </custom>
+                    <event id="Inform Applicant_1">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="625" yLoc="1517"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Caseworker</role>
+                            </roles>
+                            <readRoles>
+                                <readRole/>
+                            </readRoles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType>DL_DCREventTaskPersonal</eventType>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>26</level>
+                            <sequence>44</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Change phase to Abort">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="922" yLoc="1500"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Automatic</role>
+                            </roles>
+                            <readRoles>
+                                <readRole/>
+                            </readRoles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType>DL_DCREventAutomatic</eventType>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>26</level>
+                            <sequence>45</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                    <event id="Activity45">
+                        <precondition message=""/>
+                        <custom>
+                            <visualization>
+                                <location xLoc="1285" yLoc="1506"/>
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc"/>
+                            </visualization>
+                            <roles>
+                                <role>Automatic</role>
+                            </roles>
+                            <readRoles>
+                                <readRole/>
+                            </readRoles>
+                            <groups>
+                                <group/>
+                            </groups>
+                            <phases>
+                                <phase/>
+                            </phases>
+                            <eventType/>
+                            <eventScope>private</eventScope>
+                            <eventTypeData/>
+                            <eventDescription/>
+                            <purpose/>
+                            <guide/>
+                            <insight use="false"/>
+                            <level>1</level>
+                            <sequence>46</sequence>
+                            <costs>0</costs>
+                            <eventData/>
+                            <interfaces/>
+                        </custom>
+                    </event>
+                </event>
+            </events>
+            <subProcesses/>
+            <distribution/>
+            <labels>
+                <label id="Application"/>
+                <label id="Abort application"/>
+                <label id="New"/>
+                <label id="Approve - send to board"/>
+                <label id="Reject"/>
+                <label id="Receive"/>
+                <label id="Fill out Application"/>
+                <label id="Board review"/>
+                <label id="Lawyer Review"/>
+                <label id="Architect Review"/>
+                <label id="Review"/>
+                <label id="Review"/>
+                <label id="Board meeting"/>
+                <label id="Register Decision"/>
+                <label id="Ready"/>
+                <label id="Reject application"/>
+                <label id="Approve application"/>
+                <label id="Meeting in progress"/>
+                <label id="Inform applicant that board reviews the application"/>
+                <label id="Pre-approve application"/>
+                <label id="Execute pre-decision"/>
+                <label id="Payou"/>
+                <label id="First payment"/>
+                <label id="Undo payment"/>
+                <label id="End report"/>
+                <label id="Receive end report"/>
+                <label id="Completed"/>
+                <label id="Approved"/>
+                <label id="Inform applicant about application"/>
+                <label id="Applicant send documentation for payment"/>
+                <label id="Account number changed"/>
+                <label id="Approve changed account number"/>
+                <label id="Round approved"/>
+                <label id="Round Ends"/>
+                <label id="Change phase to review"/>
+                <label id="Change phase to Board meeting"/>
+                <label id="Change phase to Complete"/>
+                <label id="Change Phase to End Report"/>
+                <label id="Change Phase to Payout"/>
+                <label id="Change phase to Approved"/>
+                <label id="Payment completed"/>
+                <label id="Set to Pre-approved"/>
+                <label id="Afvist"/>
+                <label id="Ansøger informeret "/>
+                <label id="Change phase to Abort"/>
+                <label id="Anonymiser data"/>
+            </labels>
+            <labelMappings>
+                <labelMapping eventId="Application" labelId="Application"/>
+                <labelMapping eventId="Abort payment" labelId="Abort application"/>
+                <labelMapping eventId="Inititial Assesment" labelId="New"/>
+                <labelMapping eventId="Approve" labelId="Approve - send to board"/>
+                <labelMapping eventId="Reject" labelId="Reject"/>
+                <labelMapping eventId="Receiving" labelId="Receive"/>
+                <labelMapping eventId="Fill out Application" labelId="Fill out Application"/>
+                <labelMapping eventId="Board Review" labelId="Board review"/>
+                <labelMapping eventId="Lawyer Review" labelId="Lawyer Review"/>
+                <labelMapping eventId="Architect Review" labelId="Architect Review"/>
+                <labelMapping eventId="Review" labelId="Review"/>
+                <labelMapping eventId="Review_1" labelId="Review"/>
+                <labelMapping eventId="Board meeting" labelId="Board meeting"/>
+                <labelMapping eventId="Register Decision" labelId="Register Decision"/>
+                <labelMapping eventId="Ready" labelId="Ready"/>
+                <labelMapping eventId="Reject_1" labelId="Reject application"/>
+                <labelMapping eventId="Approve_1" labelId="Approve application"/>
+                <labelMapping eventId="Meeting in progress" labelId="Meeting in progress"/>
+                <labelMapping eventId="Inform applicant proceeed" labelId="Inform applicant that board reviews the application"/>
+                <labelMapping eventId="Pre approve" labelId="Pre-approve application"/>
+                <labelMapping eventId="Execute pre decision" labelId="Execute pre-decision"/>
+                <labelMapping eventId="Payout" labelId="Payou"/>
+                <labelMapping eventId="First payment" labelId="First payment"/>
+                <labelMapping eventId="Undo payment" labelId="Undo payment"/>
+                <labelMapping eventId="End Report" labelId="End report"/>
+                <labelMapping eventId="Receive End Report" labelId="Receive end report"/>
+                <labelMapping eventId="Complete" labelId="Completed"/>
+                <labelMapping eventId="Preparation" labelId="Approved"/>
+                <labelMapping eventId="Inform Applicant" labelId="Inform applicant about application"/>
+                <labelMapping eventId="Ensure info received from applicant" labelId="Applicant send documentation for payment"/>
+                <labelMapping eventId="Account number changed" labelId="Account number changed"/>
+                <labelMapping eventId="Approve acct num change" labelId="Approve changed account number"/>
+                <labelMapping eventId="Round approved" labelId="Round approved"/>
+                <labelMapping eventId="Round Ends" labelId="Round Ends"/>
+                <labelMapping eventId="Change phase to review" labelId="Change phase to review"/>
+                <labelMapping eventId="Change phase to Board meeting" labelId="Change phase to Board meeting"/>
+                <labelMapping eventId="Change phase to Complete" labelId="Change phase to Complete"/>
+                <labelMapping eventId="Change Phase to End Report" labelId="Change Phase to End Report"/>
+                <labelMapping eventId="Change Phase to Payout" labelId="Change Phase to Payout"/>
+                <labelMapping eventId="Change phase to Forberedelse" labelId="Change phase to Approved"/>
+                <labelMapping eventId="Payment completed" labelId="Payment completed"/>
+                <labelMapping eventId="Set to Pre approved" labelId="Set to Pre-approved"/>
+                <labelMapping eventId="Abort" labelId="Afvist"/>
+                <labelMapping eventId="Inform Applicant_1" labelId="Ansøger informeret "/>
+                <labelMapping eventId="Change phase to Abort" labelId="Change phase to Abort"/>
+                <labelMapping eventId="Activity45" labelId="Anonymiser data"/>
+            </labelMappings>
+            <expressions>
+                <expression id="Architect Review-path-Lawyer Review--condition" value="UddelingPulje=2"/>
+                <expression id="Lawyer Review-path-Architect Review--condition" value="UddelingPulje=1"/>
+                <expression id="Architect Review-path-Review--condition" value="UddelingPulje=2"/>
+                <expression id="Lawyer Review-path-Review_1--condition" value="UddelingPulje=1"/>
+                <expression id="Architect Review-path-Review_1--condition" value="UddelingPulje=2"/>
+            </expressions>
+            <variables>
+                <variable id="UddelingPulje" value="1"/>
+            </variables>
+            <variableAccesses>
+                <writeAccesses/>
+            </variableAccesses>
+            <custom>
+                <keywords/>
+                <roles>
+                    <role description="" specification="undefined">Accountant</role>
+                    <role description="" specification="undefined">Applicant</role>
+                    <role description="" specification="undefined">Architect</role>
+                    <role description="" specification="undefined">Automatic</role>
+                    <role description="" specification="undefined">Boardmember</role>
+                    <role description="" specification="undefined">Caseworker</role>
+                    <role description="" specification="undefined">DBTrigger</role>
+                    <role description="" specification="undefined">Lawyer</role>
+                    <role description="" specification="undefined">Reviewer 3</role>
+                    <role description="" specification="undefined">Reviewer 4</role>
+                </roles>
+                <groups/>
+                <phases/>
+                <eventTypes>
+                    <eventType description="undefined">DF_Stemme</eventType>
+                    <eventType description="undefined">DF_Udbetaling</eventType>
+                    <eventType description="undefined">DL_DCREventAutomatic</eventType>
+                    <eventType description="undefined">DL_DCREventDBTrigger</eventType>
+                    <eventType description="undefined">DL_DCREventTaskPersonal</eventType>
+                    <eventType description="undefined">DL_WFCaseTypeNesting</eventType>
+                    <eventType description="undefined">DL_WFCaseTypePhase</eventType>
+                    <eventType description="undefined">Nesting</eventType>
+                </eventTypes>
+                <eventParameters/>
+                <graphDetails>DCR Graph presented at Adaptive Case Management conference in Ulm, Germany</graphDetails>
+                <graphDocumentation/>
+                <graphLanguage>en-US</graphLanguage>
+                <graphDomain>process</graphDomain>
+                <graphFilters>
+                    <filteredGroups/>
+                    <filteredRoles/>
+                    <filteredPhases/>
+                </graphFilters>
+                <hightlighterMarkup id="HLM"/>
+                <highlighterMarkup>
+                    <highlightLayers>
+                        <highlightLayer default="true" name="description"/>
+                    </highlightLayers>
+                    <highlights/>
+                </highlighterMarkup>
+            </custom>
+        </resources>
+        <constraints>
+            <conditions>
+                <condition sourceId="Board meeting" targetId="Abort payment" filterLevel="17" description="" time="" groups=""/>
+                <condition sourceId="Receiving" targetId="Inititial Assesment" filterLevel="10" description="" time="" groups=""/>
+                <condition sourceId="Approve" targetId="Board Review" filterLevel="12" description="" time="" groups=""/>
+                <condition sourceId="Architect Review" targetId="Lawyer Review" filterLevel="12" description="" time="" groups="" expressionId="Architect Review-path-Lawyer Review--condition"/>
+                <condition sourceId="Lawyer Review" targetId="Architect Review" filterLevel="12" description="" time="" groups="" expressionId="Lawyer Review-path-Architect Review--condition"/>
+                <condition sourceId="Lawyer Review" targetId="Review" filterLevel="12" description="" time="" groups=""/>
+                <condition sourceId="Architect Review" targetId="Review" filterLevel="12" description="" time="" groups="" expressionId="Architect Review-path-Review--condition"/>
+                <condition sourceId="Lawyer Review" targetId="Review_1" filterLevel="12" description="" time="" groups="" expressionId="Lawyer Review-path-Review_1--condition"/>
+                <condition sourceId="Architect Review" targetId="Review_1" filterLevel="12" description="" time="" groups="" expressionId="Architect Review-path-Review_1--condition"/>
+                <condition sourceId="Inititial Assesment" targetId="Board meeting" filterLevel="10" description="" time="" groups=""/>
+                <condition sourceId="Meeting in progress" targetId="Ready" filterLevel="16" description="" time="" groups=""/>
+                <condition sourceId="Register Decision" targetId="Reject_1" filterLevel="14" description="" time="" groups=""/>
+                <condition sourceId="Register Decision" targetId="Approve_1" filterLevel="14" description="" time="" groups=""/>
+                <condition sourceId="Register Decision" targetId="Pre approve" filterLevel="14" description="" time="" groups=""/>
+                <condition sourceId="Board meeting" targetId="Payout" filterLevel="10" description="" time="" groups=""/>
+                <condition sourceId="Preparation" targetId="Payout" filterLevel="10" description="" time="" groups=""/>
+                <condition sourceId="Approve acct num change" targetId="Payout" filterLevel="14" description="" time="" groups=""/>
+                <condition sourceId="First payment" targetId="Undo payment" filterLevel="5" description="" time="" groups=""/>
+                <condition sourceId="Preparation" targetId="End Report" filterLevel="10" description="" time="" groups=""/>
+                <condition sourceId="End Report" targetId="Complete" filterLevel="10" description="" time="" groups=""/>
+                <condition sourceId="Board meeting" targetId="Preparation" filterLevel="10" description="" time="" groups=""/>
+                <condition sourceId="Board meeting" targetId="Approve acct num change" filterLevel="14" description="" time="" groups=""/>
+                <condition sourceId="Approve" targetId="Change phase to review" filterLevel="40" description="" time="" groups=""/>
+                <condition sourceId="Register Decision" targetId="Change phase to Board meeting" filterLevel="40" description="" time="" groups=""/>
+                <condition sourceId="Receive End Report" targetId="Change phase to Complete" filterLevel="40" description="" time="" groups=""/>
+                <condition sourceId="Change Phase to End Report" targetId="Change phase to Complete" filterLevel="40" description="" time="" groups=""/>
+                <condition sourceId="Payout" targetId="Change Phase to End Report" filterLevel="40" description="" time="" groups=""/>
+                <condition sourceId="Preparation" targetId="Change Phase to Payout" filterLevel="40" description="" time="" groups=""/>
+                <condition sourceId="Inform Applicant_1" targetId="Change phase to Abort" filterLevel="26" description="" time="" groups=""/>
+                <condition sourceId="Board meeting" targetId="Change phase to Forberedelse" filterLevel="40" description="" time="" groups=""/>
+                <condition sourceId="Change phase to Abort" targetId="Activity45" filterLevel="1" description="" time="3d" groups=""/>
+            </conditions>
+            <responses>
+                <response sourceId="Abort payment" targetId="Abort" filterLevel="24" description="" time="" groups=""/>
+                <response sourceId="Approve" targetId="Change phase to review" filterLevel="40" description="" time="" groups=""/>
+                <response sourceId="Reject" targetId="Abort" filterLevel="24" description="" time="" groups=""/>
+                <response sourceId="Register Decision" targetId="Change phase to Board meeting" filterLevel="40" description="" time="" groups=""/>
+                <response sourceId="Reject_1" targetId="Abort" filterLevel="24" description="" time="" groups=""/>
+                <response sourceId="Approve_1" targetId="Change phase to Forberedelse" filterLevel="40" description="" time="" groups=""/>
+                <response sourceId="Approve_1" targetId="Set to Pre approved" filterLevel="20" description="" time="" groups=""/>
+                <response sourceId="Pre approve" targetId="Execute pre decision" filterLevel="20" description="" time="" groups=""/>
+                <response sourceId="Payout" targetId="Change Phase to End Report" filterLevel="40" description="" time="" groups=""/>
+                <response sourceId="Undo payment" targetId="First payment" filterLevel="5" description="" time="" groups=""/>
+                <response sourceId="Receive End Report" targetId="Change phase to Complete" filterLevel="40" description="" time="" groups=""/>
+                <response sourceId="Preparation" targetId="Change Phase to Payout" filterLevel="40" description="" time="" groups=""/>
+                <response sourceId="Account number changed" targetId="Approve acct num change" filterLevel="14" description="" time="" groups=""/>
+                <response sourceId="Round approved" targetId="Ready" filterLevel="16" description="" time="" groups=""/>
+                <response sourceId="Inform Applicant_1" targetId="Change phase to Abort" filterLevel="26" description="" time="" groups=""/>
+                <response sourceId="Fill out Application" targetId="First payment" filterLevel="3" description="" time="" groups=""/>
+                <response sourceId="Change phase to Abort" targetId="Activity45" filterLevel="1" description="" time="1w" groups=""/>
+            </responses>
+            <coresponses/>
+            <excludes>
+                <exclude sourceId="Approve" targetId="Reject" filterLevel="14" description="" time="" groups=""/>
+                <exclude sourceId="Approve" targetId="Abort" filterLevel="24" description="" time="" groups=""/>
+                <exclude sourceId="Receiving" targetId="Abort" filterLevel="24" description="" time="" groups=""/>
+                <exclude sourceId="Approve_1" targetId="Reject_1" filterLevel="14" description="" time="" groups=""/>
+                <exclude sourceId="Pre approve" targetId="Pre approve" filterLevel="14" description="" time="" groups=""/>
+                <exclude sourceId="Payout" targetId="Abort payment" filterLevel="17" description="" time="" groups=""/>
+                <exclude sourceId="First payment" targetId="First payment" filterLevel="3" description="" time="" groups=""/>
+                <exclude sourceId="Inform Applicant" targetId="Board Review" filterLevel="17" description="" time="" groups=""/>
+                <exclude sourceId="Inform Applicant" targetId="Board meeting" filterLevel="17" description="" time="" groups=""/>
+                <exclude sourceId="Round approved" targetId="Meeting in progress" filterLevel="16" description="" time="" groups=""/>
+                <exclude sourceId="Round approved" targetId="Set to Pre approved" filterLevel="20" description="" time="" groups=""/>
+                <exclude sourceId="Round Ends" targetId="Pre approve" filterLevel="16" description="" time="" groups=""/>
+                <exclude sourceId="Change Phase to End Report" targetId="Approve acct num change" filterLevel="40" description="" time="" groups=""/>
+                <exclude sourceId="Payment completed" targetId="Undo payment" filterLevel="12" description="" time="" groups=""/>
+                <exclude sourceId="Abort" targetId="Application" filterLevel="24" description="" time="" groups=""/>
+                <exclude sourceId="Fill out Application" targetId="Fill out Application" filterLevel="3" description="" time="" groups=""/>
+                <exclude sourceId="Change Phase to End Report" targetId="Account number changed" filterLevel="40" description="" time="" groups=""/>
+                <exclude sourceId="Ready" targetId="Execute pre decision" filterLevel="20" description="" time="" groups=""/>
+                <exclude sourceId="Inititial Assesment" targetId="Inititial Assesment" filterLevel="10" description="" time="" groups=""/>
+            </excludes>
+            <includes>
+                <include sourceId="Abort payment" targetId="Abort" filterLevel="24" description="" time="" groups=""/>
+                <include sourceId="Reject" targetId="Abort" filterLevel="24" description="" time="" groups=""/>
+                <include sourceId="Board meeting" targetId="Abort payment" filterLevel="17" description="" time="" groups=""/>
+                <include sourceId="Reject_1" targetId="Abort" filterLevel="24" description="" time="" groups=""/>
+                <include sourceId="Undo payment" targetId="First payment" filterLevel="5" description="" time="" groups=""/>
+                <include sourceId="Account number changed" targetId="Approve acct num change" filterLevel="14" description="" time="" groups=""/>
+                <include sourceId="Round Ends" targetId="Meeting in progress" filterLevel="16" description="" time="" groups=""/>
+            </includes>
+            <milestones>
+                <milestone sourceId="Payout" targetId="Change Phase to End Report" filterLevel="40" description="" time="" groups=""/>
+                <milestone sourceId="Approve acct num change" targetId="Payout" filterLevel="14" description="" time="" groups=""/>
+            </milestones>
+            <updates/>
+            <spawns/>
+            <templateSpawns/>
+        </constraints>
+    </specification>
+    <runtime>
+        <custom>
+            <globalMarking/>
+        </custom>
+        <marking>
+            <globalStore>
+                <variable id="UddelingPulje" value="1"/>
+            </globalStore>
+            <executed/>
+            <included>
+                <event id="Approve"/>
+                <event id="Reject"/>
+                <event id="Fill out Application"/>
+                <event id="Lawyer Review"/>
+                <event id="Architect Review"/>
+                <event id="Review"/>
+                <event id="Review_1"/>
+                <event id="Register Decision"/>
+                <event id="Reject_1"/>
+                <event id="Approve_1"/>
+                <event id="Inform applicant proceeed"/>
+                <event id="Pre approve"/>
+                <event id="Execute pre decision"/>
+                <event id="First payment"/>
+                <event id="Receive End Report"/>
+                <event id="Complete"/>
+                <event id="Inform Applicant"/>
+                <event id="Ensure info received from applicant"/>
+                <event id="Account number changed"/>
+                <event id="Round approved"/>
+                <event id="Round Ends"/>
+                <event id="Change phase to review"/>
+                <event id="Change phase to Board meeting"/>
+                <event id="Change phase to Complete"/>
+                <event id="Change Phase to End Report"/>
+                <event id="Change Phase to Payout"/>
+                <event id="Change phase to Forberedelse"/>
+                <event id="Payment completed"/>
+                <event id="Set to Pre approved"/>
+            </included>
+            <pendingResponses/>
+        </marking>
+    </runtime>
+</dcrgraph>

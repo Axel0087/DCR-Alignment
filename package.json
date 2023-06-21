@@ -1,0 +1,22 @@
+{
+  "name": "DCR-Alignment",
+  "version": "0.0.1",
+  "description": "Typescript implementation Trace Alignment for DCR Graphs",
+  "main": "index.js",
+  "repository": "https://github.com/Axel0087/DCR-Alignment",
+  "author": "Axel Christfort <axel@christfort.dk>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "fast-xml-parser": "^3.19.0",
+    "performance-now": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.4.13",
+    "tslint": "^6.1.3",
+    "typescript": "^4.3.5"
+  },
+  "scripts": {
+    "start": "tsc && node build/main.js"
+  }
+}
